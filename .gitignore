@@ -1,0 +1,6 @@
+.gradle/
+.idea/
+build/
+Wearable/build/
+*.iml
+local.properties
