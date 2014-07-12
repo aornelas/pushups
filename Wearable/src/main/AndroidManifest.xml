@@ -17,6 +17,22 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.android.google.wearable.watchviewstub.DayActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.example.android.google.wearable.watchviewstub.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.google.wearable.watchviewstub.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.android.google.wearable.watchviewstub.SummaryActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.example.android.google.wearable.watchviewstub.DayActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.google.wearable.watchviewstub.DayActivity" />
+        </activity>
     </application>
 
 </manifest>

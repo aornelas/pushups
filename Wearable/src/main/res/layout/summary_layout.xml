@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="week 3 day 1"
+        android:id="@+id/summaryTitle"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:paddingBottom="20dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/set_layout_padding">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="10   12   7   7   9+"
+            android:textSize="@dimen/set_text_size"
+            android:id="@+id/rookieSet"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="rookie"
+            android:id="@+id/rookieTitle"
+            android:gravity="right"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/set_layout_padding">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="12   17   13   13   17+"
+            android:textSize="@dimen/set_text_size"
+            android:id="@+id/veteranSet"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="veteran"
+            android:id="@+id/veteranTitle"
+            android:gravity="right"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="14   18   14   14   20+"
+            android:textSize="@dimen/set_text_size"
+            android:id="@+id/eliteSet"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="elite"
+            android:id="@+id/eliteTitle"
+            android:gravity="right"/>
+    </LinearLayout>
+
+</LinearLayout>
