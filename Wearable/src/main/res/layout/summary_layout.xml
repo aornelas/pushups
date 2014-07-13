@@ -29,7 +29,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="rookie"
-                android:id="@+id/rookieTitle"
+                android:id="@+id/rookieSets"
                 android:gravity="center"/>
             <TextView
                 android:layout_width="match_parent"
@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="veteran"
-                android:id="@+id/veteranTitle"
+                android:id="@+id/veteranSets"
                 android:gravity="center"/>
             <TextView
                 android:layout_width="match_parent"
@@ -129,7 +129,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="elite"
-                android:id="@+id/eliteTitle"
+                android:id="@+id/eliteSets"
                 android:gravity="center"/>
             <TextView
                 android:layout_width="match_parent"
