@@ -108,8 +108,7 @@ public class SummaryActivity extends Activity {
         int[] levelIds = { R.id.rookieSets, R.id.veteranSets, R.id.eliteSets };
         for (int levelIndex = 0 ; levelIndex < LEVEL_COUNT; levelIndex++) {
             for (int setIndex = 0; setIndex < SET_COUNT; setIndex++) {
-                String setLabel = setIndex == SET_COUNT - 1 ? ">" : "";
-                setLabel += String.valueOf(PUSHUPS[weekIndex][dayIndex][levelIndex][setIndex]);
+                String setLabel = String.valueOf(PUSHUPS[weekIndex][dayIndex][levelIndex][setIndex]);
                 ((TextView) findViewById(levelIds[levelIndex] + setIndex + 1)).setText(setLabel);
             }
         }

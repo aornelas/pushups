@@ -3,4 +3,7 @@
     <color name="wl_white">#ffffff</color>
     <color name="wl_gray">#787878</color>
     <color name="text_color">#cdcdcd</color>
+    <color name="rookie">#657849</color>
+    <color name="veteran">#434e39</color>
+    <color name="elite">#323638</color>
 </resources>
