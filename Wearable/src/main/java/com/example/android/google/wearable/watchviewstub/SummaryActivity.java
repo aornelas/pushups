@@ -3,6 +3,7 @@ package com.example.android.google.wearable.watchviewstub;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.wearable.view.WearableListView;
 import android.view.LayoutInflater;
@@ -95,8 +96,15 @@ public class SummaryActivity extends Activity {
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         Intent intent = getIntent();
-        mWeekNumber = intent.getIntExtra(MainActivity.EXTRA_WEEK_NUMBER, -1);
-        mDayNumber = intent.getIntExtra(MainActivity.EXTRA_DAY_NUMBER, -1);
+        mWeekNumber = intent.getIntExtra(MainActivity.EXTRA_WEEK_NUMBER, 1);
+        mDayNumber = intent.getIntExtra(MainActivity.EXTRA_DAY_NUMBER, 1);
+
+        SharedPreferences prefs = getSharedPreferences(getString(R.string.preference_file_key),
+            Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putInt(getString(R.string.saved_week), mWeekNumber);
+        editor.putInt(getString(R.string.saved_day), mDayNumber);
+        editor.commit();
 
         setContentView(R.layout.summary_layout);
 
