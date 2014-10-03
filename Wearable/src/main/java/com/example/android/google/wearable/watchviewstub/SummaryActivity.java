@@ -5,9 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.wearable.view.WearableListView;
-import android.view.LayoutInflater;
-import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.TextView;
 
@@ -20,6 +17,7 @@ public class SummaryActivity extends Activity {
     private final int LEVEL_COUNT = 3;
     private final int SET_COUNT = 5;
 
+    // Source: http://hundredpushups.com/
     private final int[/* week */][/* day */][/* level */][/* set */] PUSHUPS = {
         { /* week 1 */
             { /* day 1 */
