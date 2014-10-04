@@ -1,4 +1,4 @@
-package com.aornelas.wearable.pushups;
+package com.aornelas.wearable.pullups;
 
 import android.app.Activity;
 import android.content.Context;

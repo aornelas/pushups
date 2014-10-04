@@ -1,4 +1,4 @@
-package com.aornelas.wearable.pushups;
+package com.aornelas.wearable.pullups;
 
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
