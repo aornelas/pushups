@@ -1,4 +1,4 @@
-package com.example.android.google.wearable.watchviewstub;
+package com.aornelas.wearable.pushups;
 
 import android.app.Activity;
 import android.content.Context;

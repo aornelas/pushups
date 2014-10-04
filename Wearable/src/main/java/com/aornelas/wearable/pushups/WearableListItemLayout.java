@@ -1,4 +1,4 @@
-package com.example.android.google.wearable.watchviewstub;
+package com.aornelas.wearable.pushups;
 
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;

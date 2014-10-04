@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.example.android.google.wearable.watchviewstub" >
+        package="com.aornelas.wearable.pushups" >
 
     <uses-sdk android:minSdkVersion="20" android:targetSdkVersion="20" />
 
@@ -10,7 +10,7 @@
             android:label="@string/app_name"
             android:theme="@android:style/Theme.DeviceDefault">
         <activity
-            android:name="com.example.android.google.wearable.watchviewstub.MainActivity"
+            android:name="com.aornelas.wearable.pushups.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -18,20 +18,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.android.google.wearable.watchviewstub.DayActivity"
+            android:name="com.aornelas.wearable.pushups.DayActivity"
             android:label="@string/app_name"
-            android:parentActivityName="com.example.android.google.wearable.watchviewstub.MainActivity" >
+            android:parentActivityName="com.aornelas.wearable.pushups.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.google.wearable.watchviewstub.MainActivity" />
+                android:value="com.example.wearable.pushups.MainActivity" />
         </activity>
         <activity
-            android:name="com.example.android.google.wearable.watchviewstub.SummaryActivity"
+            android:name="com.aornelas.wearable.pushups.SummaryActivity"
             android:label="@string/app_name"
-            android:parentActivityName="com.example.android.google.wearable.watchviewstub.DayActivity" >
+            android:parentActivityName="com.aornelas.wearable.pushups.DayActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.google.wearable.watchviewstub.DayActivity" />
+                android:value="com.example.wearable.pushups.DayActivity" />
         </activity>
     </application>
 
